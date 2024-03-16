@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 50px;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+* {
+  font-family: 'Roboto';
+}
+.app-logo {
+  height: 100px;
+  margin-right: 20px;
+}
+.app-name {
+  color: #2cc6c6;
+  font-size: 30px;
+}
+.main-heading {
+  color: #cbd5e1;
+  margin-top: 20px;
+}
